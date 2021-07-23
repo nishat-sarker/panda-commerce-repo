@@ -10,3 +10,17 @@
 .panda-cat-bg-3{
     background-color: #0000ff;
 }
+.category img{
+    width: 120px;
+     transition: transform .4s;    /***** Animation on category images*****/
+}
+.category img:hover{
+    transform: scale(1.10);
+}
+.panda-btn-buy-now{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
