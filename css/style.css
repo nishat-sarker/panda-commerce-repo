@@ -12,7 +12,7 @@
 }
 .category img{
     width: 120px;
-     transition: transform .4s;    /***** Animation on category images*****/
+    transition: transform .4s;    /***** Animation on category images*****/
 }
 .category img:hover{
     transform: scale(1.10);
